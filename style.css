@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    font-family: "poppins" sans-serif;
+}
+.head{
+    height: 82px;
+    color: blue;
+}
+
+.head .logo img{
+    width: 210px;
+    height: 105px;
+    margin: 32px 32px 16px;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    gap: 1.5rem;
+    
+    
+}
+.login{
+
+    display: flex;
+    flex-direction: column;
+   
+    background-color: #fff;
+    box-shadow: 0 5px 15px #ccc;
+    padding: 40px 30px ;
+    border-radius: 10px;
+    
+}
+.container .login{
+    height: 550px;
+    
+}
+.container .login .tittle{
+    margin-bottom: 20px;
+   
+
+}
+.container .login .tittle h1{
+    font-weight: 500;
+    font-size: 32px;
+
+}
+.container .login .tittle p{
+    color: #292929;
+}
+.container .login .input input {
+ 
+   padding: 16px 10px;
+   width: 100%;
+   border: 1px solid gray;
+   margin-top: 20px;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #0a66c2;;
+    font-weight: 600;
+    margin: 20px 0;
+}
+a:hover{
+    text-decoration: underline;
+   
+   
+}
+.container .login .btn input {
+    width: 100%;
+    padding: 16px 10px;
+    border-radius: 50px;
+    background-color:#0a66c2;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.container .login .btn input:hover{
+    background-color: rgb(9, 74, 150);
+}
+.container .login .or {
+    align-items: center;
+    margin: 5px auto;
+    color: #666;
+  
+
+}
+.container .login .button a {
+ 
+   text-decoration: none;
+   border: 1px solid black;
+   text-align: center;
+   padding: 16px 10px;
+   width: 25%;
+   position:absolute;
+   border-radius: 30px;
+   border-width: 50%;
+   
+
+   
+    
+}
